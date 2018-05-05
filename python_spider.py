@@ -71,7 +71,7 @@ headers = {
 request = urllib.request.Request(url, headers=headers)
 
 # (2)构建cookie,添加到cookiejar中
-cookie = http.cookiejar.Cookie(name="xx", value="xx", domain="xx", ...)
+cookie = http.cookiejar.Cookie(name="xx", value="xx", domain="xx"	)
 cookie_jar.set_cookie(cookie)
 response = opener.open(url)
 
